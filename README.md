@@ -7,11 +7,11 @@ The scraping script was completed by using Jupyter Notebook, BeautifulSoup, Pand
 - NASA Mars News  
 Script visits the [NASA Mars News Site](https://mars.nasa.gov/news/page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest) and collect the latest News Title and Paragraph Text.
 - JPL Mars Space Images - Featured Image  
-Script visits the [url](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars) for JPL Featured Space Image. Use splinter to navigate the site and find the image url for the current Featured Mars Image and assigns the url string of the full size image.
+Script visits the url for [JPL Featured Space Image](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars). Use splinter to navigate the site and find the image url for the current Featured Mars Image and assigns the url string of the full size image.
 - Mars Facts  
-Script visits the Mars Facts [webpage](https://space-facts.com/mars/) and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
+Script visits the [Mars Facts](https://space-facts.com/mars/) webpage and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 - Mars Hemispheres  
-Script visits the USGS Astrogeology [site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) and obtains the full resolution images for each of Mar's hemispheres.
+Script visits the [USGS Astrogeology Site](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars) and obtains the full resolution images for each of Mar's hemispheres.
 
 ## MongoDB and Flask Application
 MongoDB with Flask templating was used to create a new HTML page that displays all of the information that was scraped from above.
@@ -23,10 +23,10 @@ MongoDB with Flask templating was used to create a new HTML page that displays a
 ![Mission_to_Mars](https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/mission_to_mars_screenshot.png)
 
 ## List of Files
-1. mission_to_mars.ipynb: a Jupyter Notebook containing the scraping code used
+1. mission_to_mars.ipynb: a Jupyter Notebook containing the scraping code
 2. scrape_mars.py: a Python script with a function called scrape that will execute all scraping code and return one Python dictionary containing all of the scraped data
 3. templates/index.html: a template HTML file that takes the mars data dictionary and displays all of the data in the appropriate HTML elements
-4. mission_to_mars_screenshot.png: a screenshot of the final application.
+4. mission_to_mars_screenshot.png: a screenshot of the final application
 
 ---
 ### Copyright
