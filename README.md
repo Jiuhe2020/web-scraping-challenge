@@ -23,11 +23,10 @@ MongoDB with Flask templating was used to create a new HTML page that displays a
 ![Mission_to_Mars](https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/mission_to_mars_screenshot.png)
 
 ## List of Files
-1. mission_to_mars.ipynb - A Jupyter Notebook containing the scraping code used
-2. scrape_mars.py - A Python script with a function called scrape that will execute all scraping code and return one Python dictionary containing all of the scraped data
-3. templates/index.html - A template HTML file that takes the mars data dictionary and displays all of the data in the appropriate HTML elements
-4. mission_to_mars_screenshot.png - A screenshot of the final application.
-
+1. mission_to_mars.ipynb: a Jupyter Notebook containing the scraping code used
+2. scrape_mars.py: a Python script with a function called scrape that will execute all scraping code and return one Python dictionary containing all of the scraped data
+3. templates/index.html: a template HTML file that takes the mars data dictionary and displays all of the data in the appropriate HTML elements
+4. mission_to_mars_screenshot.png: a screenshot of the final application.
 
 ---
 ### Copyright
