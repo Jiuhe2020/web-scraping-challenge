@@ -1,4 +1,5 @@
 # Mission to Mars
+![Mars](https://wonderfest.org/wp-content/uploads/2018/01/mission-mars-e1528241593215.jpg)
 ## Challenge Instructions
 Flask web application that scrapes various websites for data related to the Mars Mission and displays the information in a single HTML page.
 
