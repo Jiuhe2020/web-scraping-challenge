@@ -12,7 +12,7 @@ Script visits the [NASA Mars News Site](https://mars.nasa.gov/news/page=0&per_pa
 - JPL Mars Space Images - Featured Image  
 Script visits the url for [JPL Featured Space Image](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars). Use splinter to navigate the site and find the image url for the current Featured Mars Image and assigns the url string of the full size image.
 - Mars Facts  
-Script visits the [Mars Facts](https://space-facts.com/mars/) webpage and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc. \
+Script visits the [Mars Facts](https://space-facts.com/mars/) webpage and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 <p align="center">
 <img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/images/Mars%20Facts.png" height="30%" width="30%">
 </p>
