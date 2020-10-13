@@ -17,7 +17,7 @@ Script visits the url for [JPL Featured Space Image](https://www.jpl.nasa.gov/sp
 - Mars Facts  
 Script visits the [Mars Facts](https://space-facts.com/mars/) webpage and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 <p align="center">
-  <img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/images/Mars%20Facts.png" height="40%" width="40%">
+  <img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/images/Mars%20Facts.png" height="50%" width="50%">
 </p>
 
 - Mars Hemispheres  
@@ -34,7 +34,7 @@ MongoDB with Flask templating was used to create a new HTML page that displays a
   <img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/mission_to_mars_screenshot.png">
 </p>
 
-## List of Files
+## List of Content
 1. mission_to_mars.ipynb: a Jupyter Notebook containing the scraping code
 2. scrape_mars.py: a Python script with a function called scrape that will execute all scraping code and return one Python dictionary containing all of the scraped data
 3. templates/index.html: a template HTML file that takes the mars data dictionary and displays all of the data in the appropriate HTML elements
