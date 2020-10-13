@@ -4,7 +4,7 @@
 ## Challenge Instructions
 Flask web application that scrapes various websites for data related to the Mars Mission and displays the information in a single HTML page.
 
-## Scrapping
+## Scraping
 The scraping script was completed by using Jupyter Notebook, BeautifulSoup, Pandas and Requests/Splinter.
 - NASA Mars News  
 Script visits the [NASA Mars News Site](https://mars.nasa.gov/news/page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest) and collect the latest News Title and Paragraph Text (as of 8/27/2020).
