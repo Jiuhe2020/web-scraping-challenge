@@ -1,12 +1,14 @@
 # Mission to Mars
 ![Mars](https://wonderfest.org/wp-content/uploads/2018/01/mission-mars-e1528241593215.jpg)
+
 ## Challenge Instructions
 Flask web application that scrapes various websites for data related to the Mars Mission and displays the information in a single HTML page.
 
 ## Scrapping
 The scraping script was completed by using Jupyter Notebook, BeautifulSoup, Pandas and Requests/Splinter.
 - NASA Mars News  
-Script visits the [NASA Mars News Site](https://mars.nasa.gov/news/page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest) and collect the latest News Title and Paragraph Text.
+Script visits the [NASA Mars News Site](https://mars.nasa.gov/news/page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest) and collect the latest News Title and Paragraph Text (as of 8/27/2020).
+![Mars News](https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/images/Mars%20News.png)
 - JPL Mars Space Images - Featured Image  
 Script visits the url for [JPL Featured Space Image](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars). Use splinter to navigate the site and find the image url for the current Featured Mars Image and assigns the url string of the full size image.
 - Mars Facts  
