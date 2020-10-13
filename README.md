@@ -9,14 +9,15 @@ The scraping script was completed by using Jupyter Notebook, BeautifulSoup, Pand
 - NASA Mars News  
 Script visits the [NASA Mars News Site](https://mars.nasa.gov/news/page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest) and collect the latest News Title and Paragraph Text (as of 8/27/2020).
 <p align="center">
-<img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/images/Mars%20News.png">
+  <img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/images/Mars%20News.png">
 </p>
+
 - JPL Mars Space Images - Featured Image  
 Script visits the url for [JPL Featured Space Image](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars). Use splinter to navigate the site and find the image url for the current Featured Mars Image and assigns the url string of the full size image.
 - Mars Facts  
 Script visits the [Mars Facts](https://space-facts.com/mars/) webpage and uses Pandas to scrape the table containing facts about the planet including Diameter, Mass, etc.
 <p align="center">
-<img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/images/Mars%20Facts.png" height="30%" width="30%">
+  <img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/images/Mars%20Facts.png" height="30%" width="30%">
 </p>
 
 - Mars Hemispheres  
@@ -28,8 +29,10 @@ MongoDB with Flask templating was used to create a new HTML page that displays a
 - Create a route called `/scrape` that will import the `scrape_mars.py` script and call the `scrape` function.
   - Store the return value in Mongo as a Python dictionary.
 - Create a root route `/` that will query the Mongo database and pass the mars data into an HTML template to display the data.
-- Create a template HTML file called `index.html` that will take the mars data dictionary and display all of the data in the appropriate HTML elements. \
-![Mission_to_Mars](https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/mission_to_mars_screenshot.png)
+- Create a template HTML file called `index.html` that will take the mars data dictionary and display all of the data in the appropriate HTML elements.
+<p align="center">
+  <img src="https://github.com/Jiuhe2020/web-scraping-challenge/blob/master/mission_to_mars_screenshot.png">
+</p>
 
 ## List of Files
 1. mission_to_mars.ipynb: a Jupyter Notebook containing the scraping code
